@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class PropertyService {
     getAllProperty(): string {
-        return 'All Properties';
+        return 'All Properties fetched';
     }
 
     getSingleProperty(id): string {
